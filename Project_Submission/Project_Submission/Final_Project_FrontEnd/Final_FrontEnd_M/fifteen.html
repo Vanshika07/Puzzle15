@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>15 Puzzle</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ceviche+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  href="fifteen.css">
+    <script src="jquery.js" ></script>
+    <script src="abc.js"></script> 
+</head>
+<body>
+        <div id="bg">
+                        <div class="hover_bkgr_fricc">
+                                        <span class="helper"></span>
+                                        <div id="bgp">
+                                            <div class="popupCloseButton">X</div>
+                                            <img src="img/6.jpg"/ height="200px" width="100%"/>
+                                            <img src="img/7.png"/ height="200px" width="100%"/>
+                                            <img src="img/5.jpg"/ height="201px" width="100%"/>
+                                        </div>
+                                    </div>
+                        
+    <h1 align="center">WELCOME TO 15-PUZZLE GAME
+                <img src="img/3.jpg" height="85px" width="70px" id="loading" align="left"> &nbsp; &nbsp;&nbsp; &nbsp;  </img>       
+    </h1>
+    <marquee direction="right" height="20" width="1600" id="mq">Play to Win, but Enjoy the fun.</marquee>
+        <br>
+        <br>
+        <form id="f1">
+                <label class="l">Time Taken (MilliSeconds): </label><br><input type="text" name="ti" id="tim" />
+                <br>
+                
+                <label class="l">Moves Taken : </label><br><textarea rows="8" cols="35" name="mo" id="o1"></textarea>
+                <br>
+                
+                <label class="l">Number of Steps : </label><br><input type="text" name="st" id="st"/>
+                <label class="l">Speed</label>
+                <select  id="s1" class="transparent_btn" ">
+                        <option value="1" selected>Normal</option>
+                        <option value="2">Slow</option>
+                        <option value="0.99999999">Fast</option>
+                </select>
+            </form>
+    <div id="board" >
+        <div class="divison" id="00">1</div>
+        <div class="divison" id="01">2</div>
+        <div class="divison" id="02">3</div>
+        <div class="divison" id="03">4</div>
+        <div class="divison" id="10">5</div>
+        <div class="divison" id="11">6</div>
+        <div class="divison" id="12">7</div>
+        <div class="divison" id="13">8</div>
+        <div class="divison" id="20">9</div>
+        <div class="divison" id="21">10</div>
+        <div class="divison" id="22">11</div>
+        <div class="divison" id="23">12</div>
+        <div class="divison" id="30">13</div>
+        <div class="divison" id="31">14</div>
+        <div class="divison" id="32">15</div>
+        <div class="divison2"  id="33"></div>
+        <div>
+                <form id="fo">
+                        <label id="lbl">Input:</label>
+                        <input type="text" id="ll" class="transparent_btn">
+                        <input type="button" value="solve"  onclick="inp()" class="transparent_btn">
+                        <input type="button" value="reset"  id="i1" onclick="history.go(0)"  class="transparent_btn" />
+                        
+                </form>
+
+
+
+            
+        </div>
+        
+        </div>
+        
+        </div>
+</body>
+</html>

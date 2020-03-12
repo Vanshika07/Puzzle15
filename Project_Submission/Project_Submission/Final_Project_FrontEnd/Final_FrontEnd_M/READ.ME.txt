@@ -1,0 +1,19 @@
+15 PUZZLE GAME
+
+Backend - Spring Boot,Java,
+Front End - Html,CSS,Jquery,Ajax Call
+
+
+STEPS TO RUN 
+1. In eclipse open the File-->Go to Import-->Projects from folder or Archive
+2. 
+2. Then click on the directory and then go to the poject folder {PuzzleProject15} and then click on finish.
+
+3. When the project is added into the project explorer right click on the project and go to Maven--> Update Maven project. 
+4. Then select the option force update where all the dependenies will get updated.
+5. Run the Application once updated.
+6. Open Fifteen.html in any browser.
+7. Provide the input in the given format in the input Text Box.
+8. The output is available on the page itself on the left side.
+
+

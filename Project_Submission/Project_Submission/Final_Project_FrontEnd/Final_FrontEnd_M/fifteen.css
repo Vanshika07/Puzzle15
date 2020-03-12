@@ -1,0 +1,208 @@
+.tile{
+    border: 1 px solid black;
+    display:inline-block;
+    margin:2px;
+    background-color: lightgray;
+    text-align: center;
+    width: 10px;
+    height:10px; 
+    position: relative;
+}
+.divison{
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align :center;
+    color:white;
+    margin: 1px;
+    border-style: outset;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Times Header', cursive;
+    font-size: 50px;
+    font-weight: bold; 
+    background-color: #52030d;
+   
+}
+.divison2{
+    color:white;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align :center;
+    background-color:gray;
+    margin: 1px;
+    border-style: outset;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    font-family: 'Times Header', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+body{
+    overflow: hidden;
+    margin:0px;
+    background-size: 100%;
+    
+}
+#f1{
+    float: left;
+    margin-left: 2cm;
+    margin-top: 5px;
+}
+body::after{
+    content: "";
+    background: url(img/2.jpg);
+    background-size: 100%;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+} 
+
+
+#board{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    height:460px;
+    width: 435px;
+    border: 1px;
+    
+    
+}
+
+.ip{
+    height: 5px;
+    width: 30px;
+}
+
+#fo{
+    float: left;
+    margin: 3px;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    
+}
+
+
+
+.l,#lbl{
+    font: 400 25px/2  'Baloo Bhai', cursive;
+    
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    
+    color:white;
+
+}
+h1 {
+    font-size:600px;
+    font: 400 50px/2  'Ceviche One', cursive;
+    color:white;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    background-color:peru;
+   
+  }
+  #mq{
+      color: white;
+      font-family:"Comic Sans MS";
+      background: transparent;
+  }
+
+  #tim,#o1,#st{
+    background: transparent;
+    border: 1px;
+    color:white;
+  }
+  
+
+  
+  .transparent_btn {
+	display: inline-block;
+	padding: 10px 14px;
+	color: rgb(108, 217, 231);
+	border: 1px solid rgb(108, 217, 231);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+    cursor: pointer;
+    margin: 1px;
+}
+
+#loading {
+    float: right;
+    margin: auto;
+}
+
+
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+#bgp
+{
+    background-color:peru;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 601px;
+    min-height: 400px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+
